@@ -5,7 +5,7 @@ Registro de riegos, calendario, avisos y guías de cuidado para mis plantas de i
 ## Publicar en GitHub Pages
 
 1. En GitHub, crea un repositorio nuevo, por ejemplo `mis-plantas`. En el plan gratuito tiene que ser **público** para usar Pages.
-2. Sube `index.html` (y este README si quieres). El archivo `google-apps-script.gs` no hace falta subirlo: es para Google Sheets.
+2. Sube a la raíz del repositorio estos archivos: `index.html`, `manifest.webmanifest`, `sw.js`, `icon-192.png`, `icon-512.png`, `icon-maskable-512.png` y `apple-touch-icon.png` (y este README si quieres). El archivo `google-apps-script.gs` no hace falta subirlo: es para Google Sheets.
 3. En el repositorio: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)` → **Save**.
 4. En uno o dos minutos la app estará en `https://TU-USUARIO.github.io/mis-plantas/`.
 5. Ábrela en el móvil y usa **Añadir a pantalla de inicio**.
